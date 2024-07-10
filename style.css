@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f2ebe3;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.img--big--screen {
+    display: none;
+}
+
+.container {
+    width: 80%;
+    padding: 50px 0;
+}
+
+.light--title {
+    width: 150px;
+    margin: 20px 0;
+    text-transform: uppercase;
+    color: #6c7289;
+    font-weight: 700;
+}
+
+.dark--title {
+    width: 300px;
+    margin: 20px 0;
+    font-family: "Fraunces", serif;
+    font-weight: 700;
+}
+
+.text {
+    width: 280px;
+    margin: 20px 0;
+    font-weight: 500;
+    color: #6c7289;
+}
+
+.prize-row {
+    width: 184px;
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Fraunces", serif;
+}
+
+.big-prize {
+    font-size: 24px;
+    font-weight: 700;
+    color: #3c8067;
+}
+
+.strike-prize {
+    text-decoration: line-through;
+    color: #6c7289;
+}
+
+.btn {
+    width: 100%;
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    border-radius: 8px;
+    background: #3c8067;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.btn h2 {
+    margin-left: 20px;
+}
+
+.btn:active {
+    opacity: .75;
+}
+
+.attribution {
+    text-align: center;
+    font-size: 18px;
+}
+
+.attribution a {
+    text-decoration: none;
+    color: #3c8067;
+}
+
+
+
+@media (min-width: 1000px) {
+
+    .img--small--screen {
+        display: none;
+    }
+
+    .img--big--screen {
+        display: flex;
+        height: 500px;
+    }
+
+    .row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 40px auto;
+    }
+
+    .col {
+        max-width: 100%;
+        
+    }
+
+    .dark--title {
+        width: 180px;
+    }
+
+    .text--cont {
+        margin-left: 50px;
+    }
+
+    .btn {
+        width: 80%;
+    }
+}
